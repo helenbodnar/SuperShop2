@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperShop2", "SuperShop2\SuperShop2.csproj", "{C2AB689B-C4DE-4D6F-80D1-9D0AFE0B761C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestSuperShop", "TestSuperShop", "{42FE1EE8-C079-43D4-96CA-7922BB124809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperShopTest", "UnitTestProject1\SuperShopTest.csproj", "{4D63A1B8-0AD3-4E61-B237-7933598C7D75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2AB689B-C4DE-4D6F-80D1-9D0AFE0B761C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2AB689B-C4DE-4D6F-80D1-9D0AFE0B761C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2AB689B-C4DE-4D6F-80D1-9D0AFE0B761C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2AB689B-C4DE-4D6F-80D1-9D0AFE0B761C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D63A1B8-0AD3-4E61-B237-7933598C7D75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D63A1B8-0AD3-4E61-B237-7933598C7D75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D63A1B8-0AD3-4E61-B237-7933598C7D75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D63A1B8-0AD3-4E61-B237-7933598C7D75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4D63A1B8-0AD3-4E61-B237-7933598C7D75} = {42FE1EE8-C079-43D4-96CA-7922BB124809}
+	EndGlobalSection
+EndGlobal
